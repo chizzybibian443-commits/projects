@@ -36,7 +36,7 @@ This repository contains all tasks completed for the PRODIGY INFOTECH Web Develo
 - Responsive grid layout
 
 ### **Task 04: Weather Application**
-**Live Demo:** [PRODIGY_WD_03](https://chizzybibian443-commits.github.io/projects/PRODIGY_WD_04.html)  
+**Live Demo:** [PRODIGY_WD_04](https://chizzybibian443-commits.github.io/projects/PRODIGY_WD_04.html)  
 **Description:** Classic weather status website.
 
 **Features:**
