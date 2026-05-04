@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio website</title>
+    <link rel="stylesheet" href="port.css">
+</head>
+<body>
+  <div id="header">
+    <div class="container"> 
+    <nav> 
+     <img src= "images/logo.jpg" class="logo">
+     <ul>
+           
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Service</a></li>
+          <li><a href="#">Portfolio</a></li>
+          <li><a href="#">Contact</a></li>
+     </ul>
+    </nav>
+    <div class="header-text">
+      <p>UI/UX Designer</p>
+      <h1> Hi, I am <Span> Okafor</Span><br> Chinaza from Nigeria</h1>
+    </div>
+    </div> 
+  </div>
+<!--------about---------->
+<div id="about">
+  <div class="container">
+    <div class="row">
+      <div class="about-col-1">
+        <img src="images/profile.jpg">
+      </div>
+     <div class="about-col-2">
+      <h1 class="sub-title">About Me</h1>
+      <p> 
+      Hi, I am Okafor Chinaza, a beginner web developer based in Lagos, Nigeria.
+      I like turning ideas into websites. Coding with HTML, CSS and JavaScript
+      I am honestly excited about tech that is why i joined this internship with Prodigy Infotech.
+      </p>
+      <div class="tab-titles">
+        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+        <p class="tab-links" onclick="opentab('background')">Background</p>
+        <p class="tab-links" onclick="opentab('education')">Education</p>
+        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+      </div>
+      <div class="tab-contents active-tab" id="skills">
+        <ul>
+          <li><span>UIUX</span><br>Designing Web/App Interfaces</li>
+          <li><span>Web Development</span><br>Web Development</li>
+          <li><span>Graphics dEsign</span><br>Bringing dull designs to life</li>
+        </ul>
+      </div>
+      <div class="tab-contents" id="background">
+        <ul>
+          <li><span>Age</span><br>26 years old</li>
+          <li><span>Nationality</span><br>Nigerian</li>
+          <li><span>Origin</span><br>I am from Anambra state</li>
+        </ul>
+      </div>
+      <div class="tab-contents" id="education">
+        <ul>
+          <li><span>2011-2017</span><br>Holy Rosary College</li>
+          <li><span>2018-2023</span><br>Nnamdi Azikiwe University,Awka</li>
+          <li><span>2025-2026</span><br>National Youth Service Corps</li>
+        </ul>
+      </div>
+      <div class="tab-contents" id="experience">
+        <ul>
+          <li><span>2024</span><br>Customer Service Support</li>
+          <li><span>2025</span><br>Graphics Design</li>
+          <li><span>2026</span><br>Web Development</li>
+        </ul>
+      </div>
+     </div>
+     </div>
+    </div>
+  </div>
+</div>
+
+<script>
+    function opentab(tabname) {
+      let tablinks = document.getElementsByClassName("tab-links");
+    let tabcontents = document.getElementsByClassName("tab-contents");
+
+    for(tablink of tablinks) {
+      tablink.classList.remove("active-link");
+    }
+    for(tabcontent of tabcontents) {
+      tabcontent.classList.remove("active-tab");
+    }
+
+    event.currentTarget.classList.add("active-link");
+    document.getElementById(tabname).classList.add("active-tab");
+}
+</script>
+
