@@ -35,6 +35,17 @@ This repository contains all tasks completed for the PRODIGY INFOTECH Web Develo
 - Reset game functionality
 - Responsive grid layout
 
+### **Task 04: Weather Application**
+**Live Demo:** [PRODIGY_WD_03](https://chizzybibian443-commits.github.io/projects/PRODIGY_WD_04.html)  
+**Description:** Classic weather status website.
+
+**Features:**
+- city search with enter key support
+- Live API data with error handling
+- Dynamic weather icons
+- Loading states for better UX
+- Responsive dedign for mobile and desktop
+
 ## 🛠️ Tech Stack Used
 - **Languages:** HTML5, CSS3, JavaScript (ES6+)
 - **Development Tools:** VS Code, Git, GitHub
