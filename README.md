@@ -1,71 +1,50 @@
 # PRODIGY INFOTECH Web Development Internship
 
-This repository contains all tasks completed for the PRODIGY INFOTECH Web Development Internship. Each project demonstrates core frontend skills using HTML, CSS, and JavaScript.
+Collection of 5 responsive web projects built during my PRODIGY INFOTECH internship. All projects are mobile-first, deployed on GitHub Pages, and built with vanilla HTML, CSS, and JavaScript.
 
-## 🚀 Live Task Demos
+## 🚀 Live Demos
 
-### **Task 01: Responsive Landing Page with Navigation Bar**
-**Live Demo:** [PRODIGY_WD_01](https://chizzybibian443-commits.github.io/projects/PRODIGY_WD_01.html)  
-**Description:** A fully responsive navigation bar that transforms into a hamburger menu on mobile screens. Built with CSS Flexbox and media queries.
+**Task 01: Responsive Landing Page** 
+`PRODIGY_WD_01.html` | [Live Demo](https://chizzybibian443-commits.github.io/projects/PRODIGY_WD_01.html) 
+Interactive navigation bar with scroll effects, mobile hamburger menu, and smooth section transitions.
 
-**Features:**
-- Mobile-first responsive design
-- CSS-only hamburger menu toggle
-- Smooth hover effects
-- Clean, semantic HTML structure
+**Task 02: Stopwatch Web App** 
+`PRODIGY_WD_02.html` | [Live Demo](https://chizzybibian443-commits.github.io/projects/PRODIGY_WD_02.html) 
+Precision stopwatch with start, pause, reset, and lap functionality. Millisecond accuracy.
 
-### **Task 02: Stopwatch Web Application** 
-**Live Demo:** [PRODIGY_WD_02](https://chizzybibian443-commits.github.io/projects/PRODIGY_WD_02.html)  
-**Description:** Interactive stopwatch with precise timing functionality built using JavaScript.
+**Task 03: Tic-Tac-Toe Game** 
+`PRODIGY_WD_03.html` | [Live Demo](https://chizzybibian443-commits.github.io/projects/PRODIGY_WD_03.html) 
+Two-player game with win detection, draw states, and game reset. Clean UI with hover effects.
 
-**Features:**
-- Start, Stop, and Reset functionality
-- Accurate millisecond tracking
-- Clean UI with real-time display
-- DOM manipulation with vanilla JS
+**Task 04: Weather Application** 
+`PRODIGY_WD_04.html` | [Live Demo](https://chizzybibian443-commits.github.io/projects/PRODIGY_WD_04.html) 
+Live weather data via OpenWeatherMap API. City search, dynamic icons, error handling, and responsive design.
 
-### **Task 03: Tic-Tac-Toe Web Application**
-**Live Demo:** [PRODIGY_WD_03](https://chizzybibian443-commits.github.io/projects/PRODIGY_WD_03.html)  
-**Description:** Classic Tic-Tac-Toe game for 2 players with complete game logic.
+**Task 05: Personal Portfolio Website** 
+`PRODIGY_WD_05.html` | [Live Demo](https://chizzybibian443-commits.github.io/projects/PRODIGY_WD_05.html) 
+Fully responsive portfolio with projects showcase, skills section, and contact form.
 
-**Features:**
-- 2-player gameplay
-- Win/draw detection
-- Turn indicator
-- Reset game functionality
-- Responsive grid layout
+## 🛠️ Tech Stack
 
-### **Task 04: Weather Application**
-**Live Demo:** [PRODIGY_WD_04](https://chizzybibian443-commits.github.io/projects/PRODIGY_WD_04.html)  
-**Description:** Classic weather status website.
+| **Frontend** | **Tools** | **Concepts** |
+| --- | --- | --- |
+| HTML5, CSS3, JavaScript | Git, GitHub, VS Code | Responsive Design, API Integration, DOM Manipulation |
 
-**Features:**
-- city search with enter key support
-- Live API data with error handling
-- Dynamic weather icons
-- Loading states for better UX
-- Responsive dedign for mobile and desktop
+## ✨ Key Features Across Projects
 
-## 🛠️ Tech Stack Used
-- **Languages:** HTML5, CSS3, JavaScript (ES6+)
-- **Development Tools:** VS Code, Git, GitHub
-- **Deployment:** GitHub Pages
-- **Core Concepts:** DOM Manipulation, Event Handling, Responsive Web Design, CSS Flexbox/Grid
-- 
-## 🎯 Skills Demonstrated
-1. **HTML5:** Semantic markup, accessibility best practices
-2. **CSS3:** Flexbox, Grid, Media Queries, Animations, Responsive Design
-3. **JavaScript:** Functions, DOM API, Event Listeners, Conditional Logic
-4. **Version Control:** Git commands, GitHub repository management
-5. **Deployment:** Hosting static sites with GitHub Pages
+- **100% Mobile Responsive** - Tested on devices from 320px to 4K displays
+- **Zero Dependencies** - Pure HTML/CSS/JS, no frameworks or libraries 
+- **API Integration** - REST API calls with fetch, error handling, loading states
+- **Clean Code** - Semantic HTML, reusable CSS, commented JavaScript
+- **GitHub Pages Deployment** - Live demos for all projects
 
-## 📌 Future Improvements
-- [ ] Add local storage to save stopwatch lap times
-- [ ] Implement AI player for Tic-Tac-Toe using Minimax algorithm
-- [ ] Add dark/light mode toggle to navigation bar
-- [ ] Optimize all projects for better mobile performance
+## 📈 What I Learned
 
-## 📝 How to Run Locally
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/chizzybibian443-commits/projects.git
+1. **DOM Manipulation** - Building interactive UIs without frameworks
+2. **Async JavaScript** - Handling API calls, promises, and error states 
+3. **Responsive Design** - CSS Grid, Flexbox, and media queries
+4. **Version Control** - Git workflow, GitHub Pages deployment, fixing broken assets
+5. **Debugging** - Using browser DevTools to fix CORS, 404s, and path errors
+
+---
+**Contact:** [Your Email] | [LinkedIn] | [Twitter]
